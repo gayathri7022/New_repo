@@ -23,7 +23,7 @@ pipeline {
                     bat '''
                     call .\\venv\\Scripts\\activate
                     dir 
-                    pytest Test.py
+                    pytest Test.py -v
                     '''
                 }
             }

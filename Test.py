@@ -6,5 +6,5 @@ def Test_cases():
     assert(is_prime(-1)) == False
     assert(is_prime(9)) == False
 
-Test_cases()
+
 

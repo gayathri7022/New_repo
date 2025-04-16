@@ -22,6 +22,7 @@ pipeline {
                 steps {
                     bat '''
                     call .\\venv\\Scripts\\activate
+                    dir 
                     pytest Test.py
                     '''
                 }
